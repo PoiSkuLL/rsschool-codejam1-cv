@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mine resume</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="wrapper" itemscope itemprop="http://schema.org/Person">
+      <header class="clearfix">
+        <div id="info">
+          <h1><span itemprop="name">Ilya Rozhkovsky</span></h1>
+          <h3><span itemprop="jobTitile">Student</span></h3>
+          <small itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Minsk</span>,
+            <span itemprop="addressCountry">Belarus</span>
+          </small>
+          <h4><span itemprop="email">poiskull@gmail.com</span></h4>
+          <h4><span itemprop="telephone">+375(29)260-68-47</span></h4>
+          <h4><a href="http://vk.com/poiskull" target="_blank" itemprop="url">My VK page</a> &bull; <a href="http://github.com/PoiSkuLL" target="_blank" itemprop="url">@PoiSkuLL</a></h4>
+        </div>
+        <div id="photo">
+          <img src="images/ilya-rozhkovsky.jpg" width="250" height="250" alt="Ilya Rozhkovsky. Photo for resume" itemprop="image" />
+        </div>
+      </header>
+
+      <section>
+        <h2>About Me</h2>
+        <p itemprop="description">I'm a 20 year old programmer from Minsk, Belarus. I am a highly-motivated senior student looking for internship able to unleash the potential to become a full-time programmer. Showing superb analytical skills, attention to details and adaptability, as well as high motivation, decent communication skills (my B1 English proficiency level also helps me with getting intercultural communication experience) and initiative.</p>
+        <p>After graduating from high school in 2015 I entered Belarusian State University of Informatics and Radioelectronics where I study at the Faculty of Computer-Aided Design and getting my major in Business Management (anticipated graduation date: July 2019).</p>
+      </section>
+
+      <section class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+        <h2 itemprop="name">Skillset</h2>
+        <section id="skills-development">
+          <h4 itemprop="about">Development</h4>
+          <ul>
+            <li itemprop="itemListElement">HTML5/CSS3 (beginner)</li>
+            <li itemprop="itemListElement">JavaScript (beginner)</li>
+            <li itemprop="itemListElement">SQL Databases (beginner)</li>
+            <li itemprop="itemListElement">Java (beginner)</li>
+            <li itemprop="itemListElement">C++ (beginner)</li>
+            <li itemprop="itemListElement">Python (beginner)</li>
+          </ul>
+        </section>
+        <section id="skills-software">
+          <h4 itemprop="about">Software</h4>
+          <ul>
+            <li itemprop="itemListElement">MS Office 2007-2010</li>
+            <li itemprop="itemListElement">ERwin Data Modeler</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <p><span itemprop="alumniOf">Gymnasium №17, Minsk</span> graduate of 2013.</p>
+        <p><span itemprop="alumniOf">Secondary school № 4, Minsk</span> graduate of 2015.</p>
+        <p><span itemprop="affiliation">Belarusian State University of Informatics and Radioelectronics</span> anticipated graduation date: july 2019.</p>
+      </section>
+
+      <section>
+        <h2>Code examples</h2>
+        <p itemprop="name">
+        <a href="https://github.com/PoiSkuLL/quadratic-equation" target="_blank" itemprop="url" title="Quadratic equation">Quadratic equation</a></p>
+
+        <p itemprop="name">
+        <a href="https://github.com/PoiSkuLL/Money-Exchange" target="_blank" itemprop="url" title="Money Exchange">Money Exchange</a></p>
+
+        <p itemprop="name">
+        <a href="https://github.com/PoiSkuLL/additional_5" target="_blank" itemprop="url" title="Brackets">Brackets</a></p>
+
+        <p itemprop="name">
+        <a href="https://github.com/PoiSkuLL/zeros" target="_blank" itemprop="url" title="Zeros">Zeros</a></p>
+      </section>
+    </div>
+  </body>
+</html>
