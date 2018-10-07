@@ -5,7 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  
+
   <body>
     <div itemscope itemprop="http://schema.org/Person">
       <header>
@@ -24,6 +24,50 @@
           <img src="images/ilya-rozhkovsky.jpg" alt="Ilya Rozhkovsky. Photo for resume" itemprop="image" />
         </div>
       </header>
+
+      <section>
+        <h2>About Me</h2>
+        <p itemprop="description"></p>
+      </section>
+
+      <section itemscope itemtype="http://schema.org/ItemList">
+        <h2 itemprop="name">Skillset</h2>
+        <section>
+          <h4 itemprop="about">Development & Software</h4>
+          <ul>
+            <li itemprop="itemListElement">HTML5/CSS3 (beginner)</li>
+            <li itemprop="itemListElement">JavaScript (beginner)</li>
+            <li itemprop="itemListElement">SQL Databases (beginner)</li>
+            <li itemprop="itemListElement">Java (beginner)</li>
+            <li itemprop="itemListElement">C++ (beginner)</li>
+            <li itemprop="itemListElement">Python (beginner)</li>
+            <li itemprop="itemListElement">MS Office 2007-2010</li>
+            <li itemprop="itemListElement">ERwin Data Modeler</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <p><span itemprop="alumniOf">Gymnasium №17, Minsk</span> graduate of 2013.</p>
+        <p><span itemprop="alumniOf">Secondary school № 4, Minsk</span> graduate of 2015.</p>
+        <p><span itemprop="affiliation">Belarusian State University of Informatics and Radioelectronics</span> graduate of 2019</p>
+      </section>
+
+      <section>
+        <h2>Code examples</h2>
+        <p itemprop="name">
+        <a href="https://github.com/PoiSkuLL/quadratic-equation" target="_blank" itemprop="url" title="Quadratic equation">Quadratic equation</a></p>
+
+        <p itemprop="name">
+        <a href="https://github.com/PoiSkuLL/Money-Exchange" target="_blank" itemprop="url" title="Money Exchange">Money Exchange</a></p>
+
+        <p itemprop="name">
+        <a href="https://github.com/PoiSkuLL/additional_5" target="_blank" itemprop="url" title="Brackets">Brackets</a></p>
+
+        <p itemprop="name">
+        <a href="https://github.com/PoiSkuLL/zeros" target="_blank" itemprop="url" title="Zeros">Zeros</a></p>
+      </section>
     </div>
   </body>
 </html>
